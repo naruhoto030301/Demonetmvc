@@ -262,3 +262,7 @@ C:\Users\HIHI\source\repos\NguyenVietPhuongBTH2\NguyenVietPhuongBTH2\obj\Debug\n
 C:\Users\HIHI\source\repos\NguyenVietPhuongBTH2\NguyenVietPhuongBTH2\obj\Debug\net6.0\NguyenVietPhuongBTH2.pdb
 C:\Users\HIHI\source\repos\NguyenVietPhuongBTH2\NguyenVietPhuongBTH2\obj\Debug\net6.0\NguyenVietPhuongBTH2.genruntimeconfig.cache
 C:\Users\HIHI\source\repos\NguyenVietPhuongBTH2\NguyenVietPhuongBTH2\obj\Debug\net6.0\ref\NguyenVietPhuongBTH2.dll
+C:\Users\HIHI\source\repos\NguyenVietPhuongBTH2\NguyenVietPhuongBTH2\bin\Debug\net6.0\EPPlus.dll
+C:\Users\HIHI\source\repos\NguyenVietPhuongBTH2\NguyenVietPhuongBTH2\bin\Debug\net6.0\EPPlus.Interfaces.dll
+C:\Users\HIHI\source\repos\NguyenVietPhuongBTH2\NguyenVietPhuongBTH2\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+C:\Users\HIHI\source\repos\NguyenVietPhuongBTH2\NguyenVietPhuongBTH2\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
