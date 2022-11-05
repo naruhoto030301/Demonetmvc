@@ -9,6 +9,6 @@ namespace NguyenVietPhuongBTH2.Models
 
         public string EmployeeName { get; set; }
 
-        public string Address { get; set; }
+        
     }
 }

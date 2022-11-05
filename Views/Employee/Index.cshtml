@@ -13,16 +13,14 @@
     <tr>
         <th>Employee ID</th>
         <th>Employee Name</th>
-        <th>Employee Address</th>
-        <th>Employee Phone</th>
-        <th>Employee Email</th>
+       
     </tr>
     @foreach (var item in Model)
     {
         <tr>
             <td>@Html.DisplayFor(m => item.EmployeeID)</td>
             <td>@Html.DisplayFor(m => item.EmployeeName)</td>
-            <td>@Html.DisplayFor(m => item.Address)</td>
+           
             <td>
                 <a asp-action="Edit" asp-route-id="@item.EmployeeID" class="btn btn-success">Sửa</a>
                 <a asp-action="Delete" asp-route-id="@item.EmployeeID" class="btn btn-danger">Xóa</a>

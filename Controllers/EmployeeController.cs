@@ -49,12 +49,12 @@ namespace NguyenVietPhuongBTH2.Controllers
             {
                 return View("NotFound");
             }
-            var Employee = await _context.Employee.FindAsync(id);
-            if (Employee == null)
+            var employee = await _context.Employee.FindAsync(id);
+            if (employee == null)
             {
                 return View("NotFound");
             }
-            return View();
+            return View(employee);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -148,7 +148,7 @@ namespace NguyenVietPhuongBTH2.Controllers
                             //set values for attributes
                             emp.EmployeeID = dt.Rows[i][0].ToString();
                             emp.EmployeeName = dt.Rows[i][1].ToString();
-                            emp.Address = dt.Rows[i][2].ToString();
+                            
                             //add object to Context
                             _context.Employee.Add(emp);
 
