@@ -10188,11 +10188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HIHI\\source\\repos\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2.csproj",
+      "projectUniqueName": "c:\\Users\\HIHI\\source\\repos\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2.csproj",
       "projectName": "NguyenVietPhuongBTH2",
-      "projectPath": "C:\\Users\\HIHI\\source\\repos\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2.csproj",
+      "projectPath": "c:\\Users\\HIHI\\source\\repos\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2.csproj",
       "packagesPath": "C:\\Users\\HIHI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HIHI\\source\\repos\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2\\obj\\",
+      "outputPath": "c:\\Users\\HIHI\\source\\repos\\NguyenVietPhuongBTH2\\NguyenVietPhuongBTH2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HIHI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10259,7 +10259,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,6 +9,7 @@ namespace NguyenVietPhuongBTH2.Data
         {
 
         }
+        public DbSet<NguyenVietPhuongBTH2.Models.Faculty> Faculty { get; set; } = default;
         public DbSet<Student> Students { get; set; }
         public DbSet<Employee> Employee { get; set; }
       

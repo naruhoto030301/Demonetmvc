@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using NguyenVietPhuongBTH2.Models.Process;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace NguyenVietPhuongBTH2.Controllers
 {
@@ -23,10 +24,12 @@ namespace NguyenVietPhuongBTH2.Controllers
         }
         public IActionResult Create()
         {
+            ViewData["FacultyID"] = new SelectList(_context.Faculty, "FacultyID", "FacultyName");
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create(Student std)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("StudentID, StudentName,FacultyID")] Student std)
         {
             if (ModelState.IsValid)
             {
@@ -34,6 +37,7 @@ namespace NguyenVietPhuongBTH2.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["FacultyID"] = new SelectList(_context.Faculty, "FacultyID", "FacultyName", std.FacultyID);
             return View();
         }
         private bool StudentExists(string id)
